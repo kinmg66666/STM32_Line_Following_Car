@@ -1,0 +1,42 @@
+# CMSIS examples/tests, not needed for normal STM32 project
+Drivers/CMSIS/DSP/DSP_Lib_TestSuite/
+Drivers/CMSIS/DSP/Examples/
+Drivers/CMSIS/NN/Examples/
+Drivers/CMSIS/NN/NN_Lib_Tests/
+
+# If you do not use neural network library
+Drivers/CMSIS/NN/
+
+# Build output
+Objects/
+Listings/
+build/
+out/
+Debug/
+Release/
+
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.htm
+*.dep
+*.build_log.htm
+
+# Keil user/local files
+*.uvguix.*
+*.scvd
+
+# Temporary
+*.bak
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
