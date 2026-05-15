@@ -3,7 +3,8 @@ name: STM32_Line_Following_Car01
 type: ARM
 deviceName: null
 packDir: null
-srcDirs: []
+srcDirs:
+  - ../Code
 virtualFolder:
   name: <virtual_root>
   files: []
